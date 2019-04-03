@@ -14,12 +14,12 @@ In the data folder there is all the data used in the project and the data genera
 
 Below are a quick overview of each notebook:
 
-[1 - Image Preprocessing](link): The original images are imported, converted and saved to the desired output (299x299x3 and 331x331x3) for the transfer learning models.
+[1 - Image Preprocessing](https://github.com/luiznonenmacher/cat-classification/blob/master/1%20-%20Image%20Preprocessing.ipynb): The original images are imported, converted and saved to the desired output (299x299x3 and 331x331x3) for the transfer learning models.
 
-[2 - Bottleneck Features](link): From the processed data obtained in the last notebook, I pass all the images trough the transfer learning models to obtain the bottleneck features used in the next steps.
+[2 - Bottleneck Features](https://github.com/luiznonenmacher/cat-classification/blob/master/2%20-%20Bottleneck%20Features.ipynb): From the processed data obtained in the last notebook, I pass all the images trough the transfer learning models to obtain the bottleneck features used in the next steps.
 
-[3 - Benchmark Model](link): Before training the transfer learning models, I train a CNN from scratch and take its results as a benchmark for the transfer learning.
+[3 - Benchmark Model](https://github.com/luiznonenmacher/cat-classification/blob/master/3%20-%20Benchmark%20Model.ipynb): Before training the transfer learning models, I train a CNN from scratch and take its results as a benchmark for the transfer learning.
 
-[4 - Transfer Learning](link): I train three transfer learning models imported from Keras using the bottleneck features.
+[4 - Transfer Learning](https://github.com/luiznonenmacher/cat-classification/blob/master/4%20-%20Transfer%20Learning.ipynb): I train three transfer learning models imported from Keras using the bottleneck features.
 
-[5 - Data Augmentation](link): To increase the performance of best model trained on the last step, I use data augmentation to generate new data to train a better model.
+[5 - Data Augmentation](https://github.com/luiznonenmacher/cat-classification/blob/master/5%20-%20Data%20Augmentation.ipynb): To increase the performance of best model trained on the last step, I use data augmentation to generate new data to train a better model.
